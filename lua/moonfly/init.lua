@@ -3,8 +3,8 @@ local highlight = vim.api.nvim_set_hl
 
 local none = "NONE"
 -- Background and foreground
-local black = "#080808"
-local white = "#c6c6c6"
+local black = "#000000"
+local white = "#ffffff"
 local bg = black
 if g.moonflyTransparent then
   bg = none
